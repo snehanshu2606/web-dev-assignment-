@@ -11,5 +11,4 @@ Contact Me: A form with Name, Email, and Message fields
 
 How to Run
 Download or clone this repository
-git clone 
-Open the folder and double-click on index.html The portfolio will open in your default web browser
+
