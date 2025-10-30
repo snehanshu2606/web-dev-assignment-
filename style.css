@@ -1,0 +1,176 @@
+* {
+    background-color: rgb(33, 37, 41);
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#about img {
+    height: 20rem;
+    width: 20rem;
+    border-color: rgb(222, 226, 230);
+    border-width: 20px;
+    border-style: double;
+    border-radius: 50%;
+    margin-left: 26%;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(206, 212, 218);
+    padding-top: 60px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: rgb(222, 226, 230);
+    font-weight: 650;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header {
+    background-color: rgb(108, 117, 125);
+    padding: 15px 5%;
+    position: fixed; 
+    border-bottom: 3px solid rgb(73, 80, 87);
+    top: 0;
+    left: 0; 
+    width: 100%; /* 100% of the window */
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    float: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px 9.5%;
+    
+}
+
+nav ul li a{
+    color: rgb(206, 212, 218);
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid rgb(206, 212, 218);
+    font-weight: 50
+}
+
+nav ul li a:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(245, 245, 245);
+    color:rgb(33, 37, 41);
+    font-style: bold;
+    font-weight: 300;
+}
+
+section{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 1px solid;
+    border-right: 0px none;
+    border-left: 0px none;
+    
+}
+
+#projects h2 {
+    font-family:sans-serif;
+    font-variant: small-caps;
+}
+
+#projects ul {
+    list-style-type:circle;
+}
+
+table {
+    margin-left: 15%;
+}
+
+#skills {
+    width: 65%;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+#skills th, #skills td {
+    border: 1px solid rgb(222, 226, 230);
+    padding: 15px;
+    text-align: left;
+}
+
+#skills th { 
+    color:rgb(249, 248, 246);
+    font-variant: small-caps;
+    font-weight: 700;
+    border-bottom: 2px solid;
+}
+
+#contact form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid;
+}
+
+label{
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],input[type="email"],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(248, 249, 250);
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: whitesmoke;
+    color: rgb(33, 37, 41);
+}
+
+footer {
+    text-align: center;
+    color: rgb(222, 226, 230);
+    padding: 15px; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer a {
+    font-style: bold;
+    text-align: center;
+    color: rgb(222, 226, 230);
+    padding: 15px; 
+    font-size: 25px;
+    font-weight: 500;
+}
+
+footer a:hover{
+    color:aqua;
+    border: 1px solid whitesmoke;
+}
